@@ -427,6 +427,8 @@ function init() {
     $(document).on('click', '.navigation-next', handleLinkClick);
     $(document).on('click', '.summary [data-path] a', handleLinkClick);
     $(document).on('click', '.page-inner a', handleLinkClick);
+    $(document).on('click', '.book-header a', handleLinkClick);
+
 
     $(window).resize(updateNavigationPosition);
 
